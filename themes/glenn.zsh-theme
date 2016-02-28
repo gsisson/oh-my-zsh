@@ -44,11 +44,11 @@ bureau_git_prompt () {
 
 # get rid of the plus/minus sign
   ZSH_THEME_GIT_PROMPT_PREFIX="[%{$fg_bold[green]%}%{$reset_color%}%{$fg_bold[white]%}"
-# swap red and yellow dots (which seem backwards)
+# change git status colors
   # red color if the file is in the repo, but has changed
-    ZSH_THEME_GIT_PROMPT_UNSTAGED="%{$fg_bold[red]%}●%{$reset_color%}"
+  ZSH_THEME_GIT_PROMPT_UNSTAGED="%{$fg_bold[red]%}●%{$reset_color%}"
   # yellow color if the file is not in the repo
-    ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[yellow]%}●%{$reset_color%}"
+  ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[cyan]%}●%{$reset_color%}"
 
 # set the prompt my way
 
