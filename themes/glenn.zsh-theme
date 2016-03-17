@@ -60,6 +60,7 @@ bureau_git_prompt () {
 
   _USER_HOST="%{$_color%}%n%{$reset_color%}@%{$_color%}%m:%{$reset_color%}"
   _LIBERTY="🌜" # moon
+  _LIBERTY="🍏 " # green apple + space
   _PATH="%{$fg2[limegreen]%}%~%{$reset_color%}"
 
   PROMPT='${_USER_HOST}%{$bg[black]%}%{$fg[white]%}${_LIBERTY}%{$reset_color%} '
